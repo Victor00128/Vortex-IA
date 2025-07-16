@@ -155,9 +155,9 @@ vortex-ia/
 Si quieres ayudar a mejorar este proyecto que tanto me costó:
 
 1. Haz fork del repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/mejora-increible`)
-3. Commit tus cambios (`git commit -m 'Agregué una mejora increíble'`)
-4. Push a la rama (`git push origin feature/mejora-increible`)
+2. Crea una rama para tu feature (`git checkout -b feature/mejora-super increible`)
+3. Commit tus cambios (`git commit -m 'Agregué una mejora '`)
+4. Push a la rama (`git push origin feature/mejoras`)
 5. Abre un Pull Request
 
 ## 📝 Reflexiones Finales
