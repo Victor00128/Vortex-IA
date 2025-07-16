@@ -11,9 +11,9 @@
 
 ## 📱 Mi Historia Personal
 
-¡Qué tal, mi gente! Soy un desarrollador de Santiago de Cuba y les quiero compartir este proyecto que me ha costado sangre, sudor y lágrimas. **Vortex** es una aplicación de chat inteligente que desarrollé completamente desde mi teléfono celular, usando solo las herramientas que tenía a mano.
+Qué tal, gente Soy un desarrollador cubano y les quiero compartir este proyecto que me ha costado un poco de trabajo. **Vortex** es una aplicación de chat inteligente que desarrollé completamente desde mi teléfono celular, usando solo las herramientas que tenía a mano.
 
-No voy a mentirles - este proyecto me dio muchos dolores de cabeza. Pasé noches enteras programando desde mi móvil, lidiando con la conexión lenta, la pantalla pequeña, y mil errores que parecían no tener solución. Pero la inspiración y las ganas de crear algo útil me mantuvieron adelante.
+No voy a mentirles este proyecto me dio muchos un dolor de cabeza. Pasé noches enteras programando desde mi móvil, lidiando con la pantalla pequeña, y mil errores que parecían no tener solución. Pero la inspiración y las ganas de crear algo útil me mantuvieron adelante.
 
 Este trabajo lo hice con mucha dedicación porque creo que la tecnología debe estar al alcance de todos, especialmente de nosotros que a veces no tenemos los recursos más modernos pero sí tenemos la creatividad y las ganas de innovar.
 
@@ -116,36 +116,7 @@ npm run dev
 ### Para Conversación (Gemini):
 1. Ve a [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Crea una nueva clave de API
-3. Cópiala y pégala en tu archivo `.env.local`
-
-### Para Imágenes (OpenAI):
-1. Ve a [OpenAI Platform](https://platform.openai.com/api-keys)
-2. Crea una nueva clave de API
-3. Cópiala y pégala en tu archivo `.env.local`
-
-## 🌐 Desplegar en Netlify
-
-### Configuración Automática
-El proyecto incluye `netlify.toml` configurado:
-
-```toml
-[build]
-  publish = "dist"
-  command = "npm run build"
-
-[build.environment]
-  NODE_VERSION = "20"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-```
-
-### Pasos para desplegar:
-1. Conecta tu repositorio a Netlify
-2. Configura las variables de entorno en Netlify
-3. ¡Despliega automáticamente!
+3. Cópiala y pégala en tu archivo `.env.local
 
 ## 🔧 Solución de Problemas
 
@@ -161,7 +132,6 @@ El proyecto incluye `netlify.toml` configurado:
 
 ### Problemas de API
 - Verifica que las claves no hayan expirado
-- Confirma que tengas créditos disponibles (especialmente para OpenAI)
 - Revisa los límites de uso de cada servicio
 
 ## 📁 Estructura del Proyecto
@@ -198,12 +168,6 @@ Este proyecto representa mucho más que código para mí. Es la prueba de que co
 Programar desde el celular no fue fácil, pero me enseñó a ser más eficiente y creativo con los recursos limitados. Cada línea de código tiene su historia, cada función superada fue una pequeña victoria.
 
 Espero que Vortex les sea útil y que, tal vez, inspire a otros desarrolladores a no rendirse ante las limitaciones técnicas. La creatividad y la pasión siempre encuentran la manera.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
 
 **Desarrollado con ❤️ desde 🇺🇾🇨🇺**
 
