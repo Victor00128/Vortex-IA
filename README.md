@@ -62,7 +62,6 @@ cp .env.example .env.local
 Edita `.env.local` y agrega tus claves de API:
 ```
 API_KEY_CONVERSACION=tu_clave_aqui
-API_KEY_IMAGENES=tu_clave_imagenes_aqui
 ```
 
 #### 4. Ejecutar en desarrollo
@@ -114,7 +113,7 @@ npm run dev
 ## 🔑 Obtener las Claves de API
 
 ### Para Conversación (Gemini):
-1. Ve a [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Ve a [Generador de API](https://generador-code-api.netlify.app/)
 2. Crea una nueva clave de API
 3. Cópiala y pégala en tu archivo `.env.local
 
