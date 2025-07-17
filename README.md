@@ -113,7 +113,7 @@ npm run dev
 ## 🔑 Obtener las Claves de API
 
 ### Para Conversación (Gemini):
-1. Ve a [Generador de API](content://ru.zdevs.zarchiver.external/storage/emulated/0/Download/Proyectos%20creado/api_key_generator_pro.html)
+1. Ve a [Generador de API](https://utcbeozm.manus.space/)
 2. Crea una nueva clave de API
 3. Cópiala y pégala en tu archivo `.env.local
 
